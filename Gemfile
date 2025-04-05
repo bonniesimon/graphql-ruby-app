@@ -37,6 +37,10 @@ gem "thruster", require: false
 
 gem "graphql"
 
+group :development do
+  gem "annotate", "~> 2.6"
+end
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
