@@ -52,4 +52,13 @@ group :development, :test do
   gem "rubocop-rails-omakase", require: false
 
   gem 'graphiql-rails'
+
+  # Rspec for testing
+  gem 'rspec-rails', '~> 7.0.0'
+
+  # Factory bot
+  gem 'factory_bot_rails'
+
+  # Faker for fake test data
+  gem 'faker'
 end
