@@ -44,6 +44,13 @@ group :development do
   gem "annotate", "~> 2.6"
 end
 
+group :test do
+  # Record test suite's HTTP interactions
+  gem "vcr"
+
+  gem "webmock"
+end
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
