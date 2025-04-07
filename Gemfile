@@ -37,6 +37,9 @@ gem "thruster", require: false
 
 gem "graphql"
 
+# making http requests
+gem "httparty"
+
 group :development do
   gem "annotate", "~> 2.6"
 end
