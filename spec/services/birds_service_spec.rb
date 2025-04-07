@@ -1,6 +1,6 @@
 require "rails_helper"
 
-RSpec.describe BirdsService, :vcr do
+RSpec.describe BirdsService, vcr: {record: :once} do
   let(:subject) {BirdsService.new}
 
   it "gets list of birds" do
