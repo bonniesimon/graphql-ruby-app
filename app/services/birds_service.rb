@@ -6,4 +6,10 @@ class BirdsService
 
     response.take(limit)
   end
+
+  def bird(id)
+    response = HTTParty.get(API_ENDPOINT)
+
+    response.filter { it["id"] == id }&.first || {}
+  end
 end
