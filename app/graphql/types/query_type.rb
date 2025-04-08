@@ -28,5 +28,6 @@ module Types
     def test_field
       "Hello World!"
     end
+    field :posts, resolver: Resolvers::PostsResolver
   end
 end
