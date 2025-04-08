@@ -40,6 +40,9 @@ gem "graphql"
 # making http requests
 gem "httparty"
 
+# CORS
+gem 'rack-cors'
+
 group :development do
   gem "annotate", "~> 2.6"
 end
