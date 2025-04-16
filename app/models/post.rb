@@ -10,5 +10,7 @@
 #
 
 class Post < ApplicationRecord
+  searchkick
+
   has_many :comments
 end

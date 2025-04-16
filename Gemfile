@@ -46,6 +46,10 @@ gem 'rack-cors'
 # Redis
 gem "redis"
 
+# Opensearch
+gem "searchkick"
+gem "opensearch-ruby"
+
 group :development do
   gem "annotate", "~> 2.6"
 end
