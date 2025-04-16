@@ -43,6 +43,9 @@ gem "httparty"
 # CORS
 gem 'rack-cors'
 
+# Redis
+gem "redis"
+
 group :development do
   gem "annotate", "~> 2.6"
 end
@@ -74,4 +77,6 @@ group :development, :test do
 
   # Faker for fake test data
   gem 'faker'
+
+  gem "dotenv"
 end
