@@ -74,7 +74,7 @@ group :development, :test do
   gem 'graphiql-rails'
 
   # Rspec for testing
-  gem 'rspec-rails', '~> 7.0.0'
+  gem 'rspec-rails', '~> 7.1.1'
 
   # Factory bot
   gem 'factory_bot_rails'
